@@ -1,0 +1,123 @@
+html{background-color:#010c18 ;
+    font-family:Helvetica;
+    color: #ddd;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #0b2a4e;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border:solid 6px;
+    border-color: rgb(255, 247, 139);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 247, 139, 0.8); /* Adicionando a sombra */  
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    text-align: center;
+}
+
+.main-title{
+        font-size: 2vw; /* O tamanho do texto será 5% da largura da viewport */
+        text-shadow: 0 4px 20px rgba(255, 255, 255, 0.5); /* Adicionando a sombra */
+}
+
+.main-paragraph{
+    font-style: italic;
+    text-align: center;
+}
+
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.featured-image img {
+    width: 400px; /* ou um valor fixo, como 300px */
+    height: auto; /* mantém a proporção */
+}
+
+.img-art1{
+    width: 400px; /* ou um valor fixo, como 300px */
+    height: auto; /* mantém a proporção */
+}
+
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    line-height: 1.5; /* Ajuste conforme necessário */
+}
+
+.quotes-container {
+    background-color: #194a79;
+    padding: 30px;
+    text-align: center;
+    color: #ddd;
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+.final-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    line-height: 1.5; /* Ajuste conforme necessário */
+}
+
+.curiosidades-container li{
+   height: 30px;
+}
+
+.img-bold{
+    font-style: italic;
+    text-align: center;
+}
+
+.img-final{
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.moreinfo-container{
+   margin-top: 70px;
+    text-align: center;
+    color:#ddd;
+}
+
+.featured-image img{
+    width: 100%;      /* Largura da imagem 100% do contêiner */
+    max-width: 400px; /* Define uma largura máxima para não ficar muito grande */
+    box-shadow: 0 4px 20px rgba(255, 247, 139, 0.8); /* Adicionando a sombra */
+}
+
+.biography-container img,
+.img-bold img,
+.img-final img {
+    display: block;    /* Torna a imagem um bloco */
+    width: 100%;      /* Largura da imagem 100% do contêiner */
+    max-width: 650px; /* Define uma largura máxima para não ficar muito grande */
+    height: auto;     /* Mantém a proporção */
+    margin: 0 auto;   /* Centraliza a imagem */
+    box-shadow: 0 4px 20px rgba(255, 247, 139, 0.5); /* Adicionando a sombra */
+}
+
+figcaption{
+    margin-top: 12px;
+}
